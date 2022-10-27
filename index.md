@@ -10,8 +10,7 @@ title: Ml learning documentation blog
 
 ---
 
-* [Mit deep learning](http://introtodeeplearning.com/) course. A free and quick course with colab notebooks as exercises. 
-This course one uses tensorflow.
+* [Mit deep learning](http://introtodeeplearning.com/) course. A free and quick course with colab notebooks as exercises.
 One of the exercises included a sequential RNN to generate music based on this course. 
 Here's what LSTM RNN can generate after a quick training on a few musical files and then fine tuning (transfer learning) to a genre:
 
