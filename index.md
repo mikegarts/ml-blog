@@ -11,9 +11,9 @@ title: Ml learning documentation blog
 * Mit deep learning course  http://introtodeeplearning.com/. A nice and quick course with colab notebooks as exercises. This one uses tensorflow.
 * A little Sequential RNNs to generate music based on this course.
 1. Transfer learning to the style of Joplin 
-   <audio controls> <source src="resouces/j_1_965.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
+   <audio controls> <source src="https://github.com/mikegarts/ml-blog/raw/main/resources/j_1_965.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
 2. Chopin 
-   <audio controls> <source src="resouces/chopinpreludes_0_5550.wav.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
+   <audio controls> <source src="https://github.com/mikegarts/ml-blog/raw/main/resources/chopinpreludes_0_5550.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
 
 * Coursera's Andrew Ng's machine learning specialization. It's a great step-by-step course 
 1. https://www.coursera.org/specializations/machine-learning-introduction
