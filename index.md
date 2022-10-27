@@ -17,7 +17,7 @@ Here's what LSTM RNN can generate after a quick training on a few musical files 
   1. <audio controls> <source src="https://github.com/mikegarts/ml-blog/raw/main/resources/j_1_965.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
      Transfer learning to the style of Joplin
   2. <audio controls> <source src="https://github.com/mikegarts/ml-blog/raw/main/resources/chopinpreludes_0_5550.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
-     Chopin Style 
+     Transfer learning to the style of Chopin 
 
 Approaching this using transformers would probably yield much better result.
 
