@@ -3,23 +3,29 @@ title: Ml learning documentation blog
 ---
 
 * Jeremy's fast.ai 2019 edition. Followed the video lectures and the textbook. 
-  Binder doesn't work quite often but saw no reason to migrate the work to huggingface:
+  Binder doesn't work too well but I saw no reason to migrate the work to huggingface:
 1. [Bear classifier example](https://github.com/mikegarts/bearsapp) 
 2. [Multi category example](https://github.com/mikegarts/multicatapp)
 3. [Pets example](https://github.com/mikegarts/petsapp)
 
-* Mit deep learning course  http://introtodeeplearning.com/. A nice and quick course with colab notebooks as exercises. This one uses tensorflow.
-* A little Sequential RNNs to generate music based on this course.
+* [Mit deep learning](http://introtodeeplearning.com/) course. A free and quick course with colab notebooks as exercises. 
+This course one uses tensorflow.
+One of the exercises included a sequential RNN to generate music based on this course. 
+Here's what LSTM RNN can generate after a quick training on a few musical files and then fine tuning (transfer learning) to a genre:
+
 1. Transfer learning to the style of Joplin 
    <audio controls> <source src="https://github.com/mikegarts/ml-blog/raw/main/resources/j_1_965.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
-2. Chopin 
+2. Chopin Style 
    <audio controls> <source src="https://github.com/mikegarts/ml-blog/raw/main/resources/chopinpreludes_0_5550.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
 
-* Coursera's Andrew Ng's machine learning specialization. It's a great step-by-step course 
+Approaching this using transformers would probably yield much better result.
+
+* Coursera's Andrew Ng's machine learning specialization. 
+It's a great step-by-step course with an emphasis on 'classical' regression in the beginning.
 1. https://www.coursera.org/specializations/machine-learning-introduction
 
-* Hugging face transformers
-1. [Remarqify app](https://huggingface.co/spaces/mikegarts/remarqify) on huggingface
+* [The huggingface course](https://huggingface.co/course)  
+1. [Remarqify app](https://huggingface.co/spaces/mikegarts/remarqify) on huggingface. This app uses the distilgpt2 model retrained on books by Erich Maria Remarques 
 
 * Kaggle courses:
 1. [Intro](https://www.kaggle.com/learn/intro-to-machine-learning)
