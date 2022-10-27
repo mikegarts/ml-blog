@@ -39,7 +39,7 @@ The data visualisation (and pandas) are also a great for pandas noobs (like me).
 
 * Kaggle challenges:
 1. Titanic intro challenge
-2. [Spaceship titanic](https://www.kaggle.com/code/michaelgartsbein/spaceship-titanic/notebook) challange. My best submission got me to top 10%: 
+2. [Spaceship titanic](https://www.kaggle.com/code/michaelgartsbein/spaceship-titanic/notebook) challange. My best submission got me to top 10%. 
 
 * fastai 2022 course
 1. This blog :)
