@@ -2,7 +2,7 @@
 title: "Fastai 2020: lesson four exercise and the Lord of the rings app"
 ---
 
-[lotr app](https://huggingface.co/spaces/mikegarts/lotr) A cute app that combines language modeling, language summarization and image generation using the stable diffusion model.
+[lotr app](https://huggingface.co/spaces/mikegarts/lotr): A cute app that combines language modeling, language summarization and image generation using the stable diffusion model.
 
 Here's how the [kaggle notebook](https://www.kaggle.com/code/michaelgartsbein/lotrtrain) with the description of how language model was fine tuned and some boilerplate code to upload 
 the trained model to the huggingface hub.
@@ -18,4 +18,5 @@ is callback trick used to reconstruct the image from the latent state.
             res = res.cpu().permute(0, 2, 3, 1).detach().numpy()
             res = pipe.numpy_to_pil(res)[0]
 ```
-This one is taken from 
+This one is taken from [here](https://github.com/huggingface/diffusers/blob/08a6dc8a5840e0cc09e65e71e9647321ab9bb254/src/diffusers/pipelines/stable_diffusion/pipeline_stable_diffusion.py#L401).
+Of course this might break but it would be easy to fix is something changes in this area.
