@@ -2,30 +2,17 @@
 title: Ml learning documentation blog
 ---
 
-* Jeremy's fast.ai 2019 edition. Followed the video lectures and the textbook. 
-  Binder doesn't work too well but I saw no reason to migrate the work to huggingface:
-  1. [Bear classifier example](https://github.com/mikegarts/bearsapp) 
-  2. [Multi category example](https://github.com/mikegarts/multicatapp)
-  3. [Pets example](https://github.com/mikegarts/petsapp)
+* fastai 2022 course
+  1. This blog :)
+  2. [fastai pets](https://huggingface.co/spaces/mikegarts/fastai_pets) on huggingface 2022 edition
+  3. [lotr app](https://huggingface.co/spaces/mikegarts/lotr) A cute app that combines language modeling, language summarization and image generation using the stable diffusion model.
+     Here's a link to a [post](_posts/2020-06-11-image-generation-and-the-lotr-app.md) with more details 
 
 ---
 
-* [Mit deep learning](http://introtodeeplearning.com/) course. A free and quick course with colab notebooks as exercises.
-One of the exercises included a sequential RNN to generate music based on this course. 
-Here's what LSTM RNN can generate after a quick training on a few musical files and then fine tuning (transfer learning) to a genre:
-
-  1. <audio controls> <source src="https://github.com/mikegarts/ml-blog/raw/main/resources/j_1_965.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
-     Transfer learning to the style of Joplin
-  2. <audio controls> <source src="https://github.com/mikegarts/ml-blog/raw/main/resources/chopinpreludes_0_5550.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
-     Transfer learning to the style of Chopin 
-
-Approaching this using transformers would probably yield much better result.
-
----
-
-* Coursera's Andrew Ng's machine learning specialization. 
-It's a great step-by-step course with an emphasis on 'classical' regression in the beginning.
-  1. https://www.coursera.org/specializations/machine-learning-introduction
+* Kaggle challenges:
+  1. Titanic intro challenge
+  2. [Spaceship titanic](https://www.kaggle.com/code/michaelgartsbein/spaceship-titanic/notebook) challange. My best submission got me to top 10%. 
 
 ---
 
@@ -33,6 +20,7 @@ It's a great step-by-step course with an emphasis on 'classical' regression in t
   1. [Remarqify app](https://huggingface.co/spaces/mikegarts/remarqify) on huggingface. This app uses the distilgpt2 model retrained on books by Erich Maria Remarques 
 
 ---
+
 
 * Kaggle courses:
   1. [Intro](https://www.kaggle.com/learn/intro-to-machine-learning)
@@ -52,12 +40,29 @@ The data visualisation (and pandas) are also a great for pandas noobs (like me).
 
 ---
 
-* Kaggle challenges:
-  1. Titanic intro challenge
-  2. [Spaceship titanic](https://www.kaggle.com/code/michaelgartsbein/spaceship-titanic/notebook) challange. My best submission got me to top 10%. 
+* Coursera's Andrew Ng's machine learning specialization. 
+It's a great step-by-step course with an emphasis on 'classical' regression in the beginning.
+  1. https://www.coursera.org/specializations/machine-learning-introduction
 
 ---
 
-* fastai 2022 course
-  1. This blog :)
-  2. [fastai pets](https://huggingface.co/spaces/mikegarts/fastai_pets) on huggingface 2022 edition
+* [Mit deep learning](http://introtodeeplearning.com/) course. A free and quick course with colab notebooks as exercises.
+One of the exercises included a sequential RNN to generate music based on this course. 
+Here's what LSTM RNN can generate after a quick training on a few musical files and then fine tuning (transfer learning) to a genre:
+
+  1. <audio controls> <source src="https://github.com/mikegarts/ml-blog/raw/main/resources/j_1_965.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
+     Transfer learning to the style of Joplin
+  2. <audio controls> <source src="https://github.com/mikegarts/ml-blog/raw/main/resources/chopinpreludes_0_5550.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
+     Transfer learning to the style of Chopin 
+
+Approaching this using transformers would probably yield much better result.
+
+---
+
+* Jeremy's fast.ai 2019 edition. Followed the video lectures and the textbook. 
+  Binder doesn't work too well but I saw no reason to migrate the work to huggingface:
+  1. [Bear classifier example](https://github.com/mikegarts/bearsapp) 
+  2. [Multi category example](https://github.com/mikegarts/multicatapp)
+  3. [Pets example](https://github.com/mikegarts/petsapp)
+
+---
