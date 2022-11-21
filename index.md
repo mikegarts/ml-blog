@@ -2,6 +2,11 @@
 title: Ml learning documentation blog
 ---
 
+* Andrej Karpathy makemore series
+  1. [Makemore](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) - learning NN 
+from one of the top researchers and engineers in the world
+
+
 * fastai 2022 course
   1. This blog :)
   2. [fastai pets](https://huggingface.co/spaces/mikegarts/fastai_pets) on huggingface 2022 edition
@@ -12,7 +17,9 @@ title: Ml learning documentation blog
 
 * Kaggle challenges:
   1. Titanic intro challenge
-  2. [Spaceship titanic](https://www.kaggle.com/code/michaelgartsbein/spaceship-titanic/notebook) challange. My best submission got me to top 10%. 
+  2. [Spaceship titanic](https://www.kaggle.com/code/michaelgartsbein/spaceship-titanic/notebook) challenge. My best submission got me to top 10%
+  3. [Natural Language Processing with Disaster Tweets](https://www.kaggle.com/code/michaelgartsbein/auto-data-cleanup-huggingface-transformers). A top 17% result 
+with a relatively small model (and a very quick training) but some interesting semi-automatic ML-driven data cleaning
 
 ---
 
