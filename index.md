@@ -8,18 +8,19 @@ from one of the top researchers and engineers in the world
 
 
 * fastai 2022 course
-  1. This blog :)
+  1. [lotr app](https://huggingface.co/spaces/mikegarts/lotr) A cute app that combines language modeling, language summarization and image generation using the stable diffusion model.
+     Here's a link to a [post](_posts/2020-06-11-image-generation-and-the-lotr-app.md) with more details
   2. [fastai pets](https://huggingface.co/spaces/mikegarts/fastai_pets) on huggingface 2022 edition
-  3. [lotr app](https://huggingface.co/spaces/mikegarts/lotr) A cute app that combines language modeling, language summarization and image generation using the stable diffusion model.
-     Here's a link to a [post](_posts/2020-06-11-image-generation-and-the-lotr-app.md) with more details 
+  3. This blog :)
+  
 
 ---
 
 * Kaggle challenges:
-  1. Titanic intro challenge
-  2. [Spaceship titanic](https://www.kaggle.com/code/michaelgartsbein/spaceship-titanic/notebook) challenge. My best submission got me to top 10%
-  3. [Natural Language Processing with Disaster Tweets](https://www.kaggle.com/code/michaelgartsbein/auto-data-cleanup-huggingface-transformers). A top 17% result 
+  1. [Natural Language Processing with Disaster Tweets](https://www.kaggle.com/code/michaelgartsbein/auto-data-cleanup-huggingface-transformers). A top 17% result 
 with a relatively small model (and a very quick training) but some interesting semi-automatic ML-driven data cleaning
+  2. [Spaceship titanic](https://www.kaggle.com/code/michaelgartsbein/spaceship-titanic/notebook) challenge. My best submission got me to top 10%
+  3. Titanic intro challenge
 
 ---
 
