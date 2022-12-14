@@ -1,5 +1,5 @@
 ---
-title: "Fastai 2020: lesson four exercise and the Lord of the rings app"
+title: "Fastai 2022: lesson four exercise and the Lord of the rings app"
 ---
 
 [lotr app](https://huggingface.co/spaces/mikegarts/lotr): A cute app that combines language modeling, language summarization and image generation using the stable diffusion model.
