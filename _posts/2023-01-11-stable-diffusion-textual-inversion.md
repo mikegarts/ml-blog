@@ -3,11 +3,11 @@ title: "Experiments with stable diffusion - textual inversion"
 ---
 
 Textual inversion is a technique that allows one to train a new "word" (and get a new embedding for that word)
-in the space of all possible tokens out model knows.
-As a use you can load this new embedding and use it during the de- noising process. 
+in the space of all possible embeddings our model knows.
+As a user you can load this new embedding and refer it during the de-noising process. 
 
 A better and more formal description can be found [here](https://huggingface.co/docs/diffusers/training/text_inversion)
-A video explaning a topic is part of the stable diffusion [lectures](https://www.youtube.com/watch?v=0_BBRNYInx8) by fast.ai. 
+A video explaining a topic is part of the stable diffusion [lectures](https://www.youtube.com/watch?v=0_BBRNYInx8) by fast.ai. 
 
 Here is an example of leaning a specific watercolor houses drawing *style*. The learned style then transferred to other objects: 
 ![Textual inversion](https://github.com/mikegarts/ml-blog/raw/main/resources/textual_inv.png)
