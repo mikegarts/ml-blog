@@ -20,10 +20,10 @@ Image to image (style transfer) works quite well too, but you have to lower the 
 ![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/img2img.png)
 ![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/img2img_2.png)
 
-Training an object and not a style yielded nice results 
+[Training an object](https://huggingface.co/sd-concepts-library/chukotka) (and not a style) yielded nice results 
 ![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/chuk.png)
 
-But failed to locate the learned object correctly in the scene, for example
+But failed to locate the learned object correctly in the context of the scene given the prompt, for example
 
 > Prompt: "photo of *object* driving a red car, yellow eyes, masterpiece, trending, beautiful, sharp focus, cute"
 ![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/fail.png)
