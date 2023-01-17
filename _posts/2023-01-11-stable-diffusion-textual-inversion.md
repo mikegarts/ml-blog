@@ -10,20 +10,22 @@ A better and more formal description can be found [here](https://huggingface.co/
 A video explaning a topic is part of the stable diffusion [lectures](https://www.youtube.com/watch?v=0_BBRNYInx8) by fast.ai. 
 
 Here is an example of leaning a specific watercolor houses drawing *style*. The learned style then transferred to other objects: 
-![Textual inversion]({{ site.baseurl }}/resources/textual_inv.png)
+![Textual inversion](https://github.com/mikegarts/ml-blog/raw/main/resources/textual_inv.png)
 
 One has to be careful - if guidance to high (how much the denoising should stick to the prompt) - even a cat can become 
 watercolor drawing of a house:
-![img.png](resources/cat_house.png)
+![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/cat_house.png)
 
 Image to image (style transfer) works quite well too, but you have to lower the guidance a bit:
-![img.png](resources/img2img.png)
-![img.png](resources/img2img_2.png)
+![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/img2img.png)
+![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/img2img_2.png)
 
 Training an object and not a style yielded nice results 
-![img.png](resources/chuk.png)
+![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/chuk.png)
 
 But failed to locate the learned object correctly in the scene, for example
 
 > Prompt: "photo of *object* driving a red car, yellow eyes, masterpiece, trending, beautiful, sharp focus, cute"
-![img.png](resources/fail.png)
+![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/fail.png)
+
+Next time I am planning to try read about and try out the dreambooth method, which is supposedly works better with objects.
