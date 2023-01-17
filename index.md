@@ -44,7 +44,7 @@ The data visualisation (and pandas) are also a great for pandas noobs (like me).
 ---
 * Coursera's Andrew Ng's machine learning specialization. 
 It's a great step-by-step course with an emphasis on 'classical' regression in the beginning.
-  1. https://www.coursera.org/specializations/machine-learning-introduction
+  1. [Introduction to machine learning](https://www.coursera.org/specializations/machine-learning-introduction)
 ---
 * [Mit deep learning](http://introtodeeplearning.com/) course. A free and quick course with colab notebooks as exercises.
 One of the exercises included a sequential RNN to generate music based on this course. 
