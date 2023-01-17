@@ -2,17 +2,21 @@
 title: Ml learning documentation blog
 ---
 
+* [Huggingface Deep Reinforcement Learning course](https://huggingface.co/deep-rl-course/unit0/introduction)
+
+---
+
 * Andrej Karpathy makemore series
   1. [Makemore](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) - learning NN 
 from one of the top researchers and engineers in the world
 
+---
 
 * fastai 2022 course
   1. [lotr app](https://huggingface.co/spaces/mikegarts/lotr) A cute app that combines language modeling, language summarization and image generation using the stable diffusion model.
      Here's a link to a [post](_posts/2020-06-11-image-generation-and-the-lotr-app.md) with more details
   2. [fastai pets](https://huggingface.co/spaces/mikegarts/fastai_pets) on huggingface 2022 edition
   3. This blog :)
-  
 
 ---
 
@@ -28,7 +32,6 @@ with a relatively small model (and a very quick training) but some interesting s
   1. [Remarqify app](https://huggingface.co/spaces/mikegarts/remarqify) on huggingface. This app uses the distilgpt2 model retrained on books by Erich Maria Remarques 
 
 ---
-
 
 * Kaggle courses:
   1. [Intro](https://www.kaggle.com/learn/intro-to-machine-learning)
