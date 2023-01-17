@@ -58,7 +58,7 @@ Here's what LSTM RNN can generate after a quick training on a few musical files 
 Approaching this using transformers would probably yield much better result.
 ---
 * Jeremy's fast.ai 2019 edition. Followed the video lectures and the textbook. 
-  Binder doesn't work too well but I saw no reason to migrate the work to huggingface:
+  Binder doesn't work too well, but I saw no reason to migrate the work to huggingface:
   1. [Bear classifier example](https://github.com/mikegarts/bearsapp) 
   2. [Multi category example](https://github.com/mikegarts/multicatapp)
   3. [Pets example](https://github.com/mikegarts/petsapp)
