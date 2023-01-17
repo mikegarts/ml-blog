@@ -10,7 +10,7 @@ A better and more formal description can be found [here](https://huggingface.co/
 A video explaning a topic is part of the stable diffusion [lectures](https://www.youtube.com/watch?v=0_BBRNYInx8) by fast.ai. 
 
 Here is an example of leaning a specific watercolor houses drawing *style*. The learned style then transferred to other objects: 
-![Textual inversion](resources/textual_inv.png)
+![Textual inversion]({{ site.baseurl }}/resources/textual_inv.png)
 
 One has to be careful - if guidance to high (how much the denoising should stick to the prompt) - even a cat can become 
 watercolor drawing of a house:
