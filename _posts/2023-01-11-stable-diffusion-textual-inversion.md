@@ -26,6 +26,7 @@ Image to image (style transfer) works quite well too, but you have to lower the 
 But failed to locate the learned object correctly in the context of the scene given the prompt, for example
 
 > Prompt: "photo of *object* driving a red car, yellow eyes, masterpiece, trending, beautiful, sharp focus, cute"
+> 
 ![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/fail.png)
 
 For the next time: dreambooth which is another technique to customize a diffusion model.  
