@@ -28,4 +28,4 @@ But failed to locate the learned object correctly in the context of the scene gi
 > Prompt: "photo of *object* driving a red car, yellow eyes, masterpiece, trending, beautiful, sharp focus, cute"
 ![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/fail.png)
 
-Next time I am planning to try read about and try out the dreambooth method, which is supposedly works better with objects.
+For the next time: dreambooth which is another technique to customize a diffusion model.  
