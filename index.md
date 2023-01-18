@@ -4,7 +4,7 @@ title: Ml learning documentation blog
 
 ---
 * Stable diffusion experiments
-  1. [textual inversion](_posts/2023-01-11-stable-diffusion-textual-inversion.md)
+  1. [Textual inversion](_posts/2023-01-11-stable-diffusion-textual-inversion.md)
 ---
 * [Huggingface Deep Reinforcement Learning course](https://huggingface.co/deep-rl-course/unit0/introduction)
 ---
