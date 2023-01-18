@@ -4,14 +4,17 @@ title: Ml learning documentation blog
 
 * Stable diffusion experiments
   1. [Textual inversion](_posts/2023-01-11-stable-diffusion-textual-inversion.md)
+
 ---
 
 * [Huggingface Deep Reinforcement Learning course](https://huggingface.co/deep-rl-course/unit0/introduction)
+
 ---
 
 * Andrej Karpathy makemore series
   1. [Makemore](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) - learning NN 
 from one of the top researchers and engineers in the world
+
 ---
 
 * fastai 2022 course
