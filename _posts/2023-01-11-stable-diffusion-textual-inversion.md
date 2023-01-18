@@ -7,14 +7,14 @@ in the space of all possible embeddings our model knows.
 As a user you can load this new embedding and refer it during the de-noising process. 
 
 A better and more formal description can be found [here](https://huggingface.co/docs/diffusers/training/text_inversion)
-A video explaining a topic is part of the stable diffusion [lectures](https://www.youtube.com/watch?v=0_BBRNYInx8) by fast.ai. 
+A video explaining this topic is part of the stable diffusion [lecture series](https://www.youtube.com/watch?v=0_BBRNYInx8) by fast.ai. 
 
-Here is an example of leaning a specific [watercolor houses drawing *style*(https://huggingface.co/sd-concepts-library/barbosa)]. 
-The learned style then transferred to other objects: 
+Here is an example of leaning a specific [watercolor houses drawing *style*](https://huggingface.co/sd-concepts-library/barbosa)]. 
+The learned style then transferred to other objects:
 ![Textual inversion](https://github.com/mikegarts/ml-blog/raw/main/resources/textual_inv.png)
 
-One has to be careful - if guidance to high (how much the denoising should stick to the prompt) - even a cat can become 
-watercolor drawing of a house:
+One has to be careful - if guidance is too high (that is, how much the de-noising should stick to the prompt) - 
+even a cat can suddenly become a watercolor drawing of a house:
 ![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/cat_house.png)
 
 Image to image (style transfer) works quite well too, but you have to lower the guidance a bit:
