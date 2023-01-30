@@ -30,9 +30,9 @@ But failed to locate the learned object correctly in the context of the scene gi
 > 
 ![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/fail.png)
 
-There is a huge collection of community created concepts [here].(https://huggingface.co/sd-concepts-library).
-
-<br>
+There is a huge collection of community created concepts [here](https://huggingface.co/sd-concepts-library). <br>
+I found that the simplest way to train a new embedding is 
+using [this google colab notebook](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/sd_textual_inversion_training.ipynb)<br>
 
 [And here](https://mikegarts.github.io/ml-blog/2023/01/30/stable-diffusion-dreambooth.html) is an
 exploration of another technique to customize generative diffusion modes called Dreambooth.
