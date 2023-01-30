@@ -30,4 +30,9 @@ But failed to locate the learned object correctly in the context of the scene gi
 > 
 ![img.png](https://github.com/mikegarts/ml-blog/raw/main/resources/fail.png)
 
-For the next time: dreambooth which is another technique to customize a diffusion model.  
+There is a huge collection of community created concepts [here].(https://huggingface.co/sd-concepts-library).
+
+<br>
+
+[And here](https://mikegarts.github.io/ml-blog/2023/01/30/stable-diffusion-dreambooth.html) is an
+exploration of another technique to customize generative diffusion modes called Dreambooth.

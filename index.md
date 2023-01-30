@@ -4,6 +4,7 @@ title: Ml learning documentation blog
 
 * Stable diffusion experiments
   1. [Textual inversion](_posts/2023-01-11-stable-diffusion-textual-inversion.md)
+  2. [Dreambooth](_posts/2023-01-30-stable-diffusion-dreambooth.md)
 
 ---
 
