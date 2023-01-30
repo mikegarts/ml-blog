@@ -11,9 +11,9 @@ Well that wasn't helpful at all! Seems like we are on our own here trying to und
 
 As a reminder, in textual inversion, we are adding a new token to the model's vocabulary (like a new word in a language) 
 and learning its "location" in embedding space (one way to think about it, at least). 
-Later we can use the new token in our prompts, and diffusion process will guide the de-noising 
-process closer towards a result that incorporates the new token (closer in this context means that the 
-"distance" between the representation of the image and the representation of the prompt get smaller).
+Later we can use the new token in our prompts, and the de-noising process will guide the result 
+closer towards something that incorporates the new token (closer in this context means that the 
+"distance" between the encoded representation of the image and the encoded representation of the prompt gets smaller).
 
 <br>
 
@@ -21,9 +21,8 @@ process closer towards a result that incorporates the new token (closer in this 
 
 The output of the textual inversion training is a relatively small file - the new embedding we learned. 
 Its size, depending on the model used, is just a few thousands of bytes since it's merely the coordinates
-of our freshly learned embedding in the embedding space. One could easily combine different learned embeddings
-in a single inference (image generation) session.
-One can easily load many new embeddings into existing model 
+of our freshly learned embedding in the embedding space.
+It is possible to load many new embeddings into existing model and inference session 
 (for example using [automatic1111 UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)).
 Textual inversion yielded some very impressive results in the field of 
 style transfer as one can examine [here](https://mikegarts.github.io/ml-blog/2023/01/11/stable-diffusion-textual-inversion.html). 
@@ -31,12 +30,13 @@ style transfer as one can examine [here](https://mikegarts.github.io/ml-blog/202
 <br>
 
 [Dreambooth by google research](https://dreambooth.github.io/), 
-is another technique to extend the capabilities of diffusion models, but this time we are 
+is another technique to extend the capabilities of generative diffusion models, but this time we are 
 re-training the whole model instead of learning a new embedding.
 It also means that the output of the process is a new model file (a few GBs) and thus
 combining a number of new concepts during the inference can be somewhat more cumbersome.
 On the other hand - the quality of the generated content becomes much more detailed, especially when dealing
-with objects (or pets/human subjects).
+with objects (or pets/human subjects). This probably happens because we also train the super resolution 
+component (the part that resizes our small resolution generated image to a larger image).
 
 <br>
 
